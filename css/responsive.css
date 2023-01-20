@@ -1,0 +1,128 @@
+@media screen and (max-width:576px){
+
+}
+/* end small mobile */
+
+@media screen and (min-width:577px){
+    /* .page-four-right figure{
+        width: 510px;
+        height: 202px;
+    } */
+}
+/* end big mobile */
+
+@media screen and (min-width:768px){
+    /* input {
+        
+        margin: 20px 10px;
+        
+      } */
+    .page-one-middle>div:nth-of-type(1){
+        flex-direction: row;
+    }
+    .book{
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+    }
+    .page-two>div{
+        min-height: 640px;
+        padding: 9%;
+    }
+    .page-two>div:nth-of-type(2)>section{
+        background-color: rgba(0, 0, 0, 0.548);
+        position: absolute;
+        padding: 25px !important;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20%;
+        width: 78%;
+    }
+    .page-three>div{
+        flex-wrap: nowrap !important;
+    }
+    .page-four-left section{
+        text-align: right;
+    }
+    .page-four-left p{
+        text-align: right;
+    }
+    .page-four-right figure{
+        width: 152px;
+        height: 202px;
+        padding: 0;
+    }
+    .page-four-left section{
+        margin-top: 40%; 
+    }
+    .page-four-right-figure-left{
+        margin: 80px 5%;
+    }
+    .page-four-right-figure-right{
+        margin: 80px 0;
+    }
+    /* ***************************** */
+    .page-six-bottom figure{
+        width: 256px;
+    }
+    /* *********************** */
+    .page-seven-bottom figure{
+        width: 328px;
+        height: 271px;
+    }
+}
+/* end tablet */
+
+@media screen and (min-width:992px){
+    .bb{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+    }
+    .menu{
+        height: 100px;
+        background-color: transparent;
+    } 
+    .menu>a{
+        text-align: center;
+        padding: 49px 0 !important;
+    }
+    .menu>nav>ul>li{
+        margin-top: 25px !important;
+    }
+    .page-one-middle{
+        margin-top: -221px !important;
+    }
+    .page-one-middle>div:nth-of-type(1)>section{
+        max-width: 196px;
+        text-align: center;
+    }
+    /* ********************************* */
+    .page-four-left section{
+        padding-left: 93px;
+    }
+    .page-four-right figure{
+        width: 255px;
+        height: 202px;
+    }
+    .page-four-right-figure-left{
+        margin: 80px 5%;
+    }
+    .page-four-right-figure-right{
+        margin: 110px 0;
+    }
+}
+
+/* end desktop */
+
+@media screen and (min-width:1200px){
+    .page-one-middle>div:nth-of-type(1){
+        min-height: 187px;
+        justify-content: space-evenly;
+    }
+  
+}
+
+/* end big */
+
+@media screen and (min-width:1400px){
+   
+}
+/* end big */
